@@ -19,7 +19,9 @@ to install this on your project, do:
 1. also, specify url in 'urls.py' as:
 ```py
 from django.urls import path, include
-urlpatterns = [path('polls/', include('polls.urls'),)]
+urlpatterns = [
+  path('polls/', include('polls.urls'),)
+]
 ```
 1. now run, ` python manage.py runserver`
 1. locate url: ` http://localhost:8000/polls/ `
