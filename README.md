@@ -4,7 +4,7 @@
 to install this on your project, do:
 
 **Steps:**
-1. Clone this repository: hit in your terminal: `git clone git@github.com:dbijaya/bug-free-octo-dollop.git` .
+1. Clone this repository: hit in your terminal: `git clone git@github.com:dbijaya/bug-free-octo-dollop.git`
 1. Copy the folder named 'django-polls' and then paste outside of your current project directory.
 1. and hit command: `python -m pip install --user django-polls/dist/django-polls-0.1.tar.gz` .
   1. use Vertual environment (optional, but recommended)
